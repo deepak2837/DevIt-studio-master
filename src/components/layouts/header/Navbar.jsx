@@ -100,7 +100,7 @@ const Navbar = () => {
                   </li>
                   <li className="my-1">
                     <Link
-                      to="/contact"
+                      to="/contact-us"
                       className="text-xs uppercase md:text-sm hover:text-indigo-600 font-extralight ease-in-out duration-300"
                     >
                       Contact
@@ -172,7 +172,7 @@ const Navbar = () => {
               </li>
               <li className="mb-2">
                 <Link
-                  to="/contact"
+                  to="/contact-us"
                   className={
                     "pr-14 text-black hover:text-indigo-400 ease-in-out duration-300 font-light text-sm"
                   }
