@@ -5,18 +5,19 @@
     flex-wrap: nowrap;
     align-items: center;
     margin: 4rem 0rem 2rem;
+   
 }
 
 
 .headings h3 {
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: -5%;
-   
+    /* border: 10px solid red; */
     background: var(--color-highlight);
     font-weight: 500;
     font-size: 40px;
     line-height: 41px;
-    padding: .3rem;
+    padding: rem;
     border-radius: 5px;
     margin-right: 1rem;
 }

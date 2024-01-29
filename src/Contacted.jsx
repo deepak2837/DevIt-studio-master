@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Headings  from './container/heading.jsx';
-import './Contact.css';
+import './Contactg.css';
 
 const Contacts = () => {
   const [formData, setFormData] = useState({

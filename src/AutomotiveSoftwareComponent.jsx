@@ -11,7 +11,7 @@ const AutomotiveSoftwareComponent = () => {
             <h1>Automotive Software Development</h1>
           </div>
           <p className="section-description">
-            Automotive software development by Itransition empowers automakers, OEMs, dealerships, maintenance providers, car sharing services, and automotive tech vendors to streamline operations, enhance productivity, and improve customer experience.
+            Automotive software development by New Light empowers automakers, OEMs, dealerships, maintenance providers, car sharing services, and automotive tech vendors to streamline operations, enhance productivity, and improve customer experience.
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ const AutomotiveSoftwareComponent = () => {
         <div className="card">
           <h2>Expertise</h2>
           <p>
-            As a Zinnov-recognized automotive software developer, Itransition delivers corporate and customer-facing solutions covering various automotive business needs. From consulting to post-deployment support, we handle the full cycle of automotive software development.
+            As a Zinnov-recognized automotive software developer, New Light delivers corporate and customer-facing solutions covering various automotive business needs. From consulting to post-deployment support, we handle the full cycle of automotive software development.
           </p>
         </div>
       </section>
@@ -29,7 +29,7 @@ const AutomotiveSoftwareComponent = () => {
         <div className="card">
           <h2>Solutions</h2>
           <p>
-            Itransition provides various types of automotive software to help enterprises automate operations, make intelligent decisions, optimize work aspects, and scale their business. Our solutions include dealership management, automotive ecommerce, telematics, BI, enterprise management, and logistics.
+            New Light provides various types of automotive software to help enterprises automate operations, make intelligent decisions, optimize work aspects, and scale their business. Our solutions include dealership management, automotive ecommerce, telematics, BI, enterprise management, and logistics.
           </p>
         </div>
       </section>
@@ -56,7 +56,7 @@ const AutomotiveSoftwareComponent = () => {
         <div className="card">
           <h2>Platforms</h2>
           <p>
-            Itransition helps enterprises leverage off-the-shelf software platforms like Salesforce, Odoo, Enate, and Magento, tailoring them to automotive businesses’ needs.
+            New Light helps enterprises leverage off-the-shelf software platforms like Salesforce, Odoo, Enate, and Magento, tailoring them to automotive businesses’ needs.
           </p>
         </div>
       </section>

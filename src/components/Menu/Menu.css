@@ -62,11 +62,11 @@
   border-bottom: #8cfc70;
   border-radius: "15px";
   margin-right: 10px;
-  margin-top: -7px !important;
+  margin-top: -16px !important;
   margin-bottom: -16px;
 
   @media (min-width: 280px) and (max-width: 500px) {
-    margin-left: -10px;margin-right: 1px;
+    margin-left: -0px;margin-right: 10px;
 
   }
 
@@ -83,6 +83,7 @@
 
 }
 
+
 .nav-link:nth-child(1),
 .nav-link:nth-child(2),
 .nav-link:nth-child(7),
@@ -91,6 +92,8 @@
   border: 1px solid black;
   margin-left: 20px;
   font-size: large;
+  margin-left:10px;
+  margin-right: 10px !important;
   /* background: var(--color-highlight); */
   color: var(--color-text);
   text-align: center;
@@ -146,6 +149,7 @@
   .nav-link:nth-child(7),
   .nav-link:nth-child(8),
   .nav-link:last-child {
+    margin-right: 20px;
 
     background: var(--color-highlight);
     color: var(--color-text);
@@ -164,4 +168,11 @@
     border-radius: 5px;
     /* Add border radius on hover for responsive NavDropdown */
   }
+  .navbar-nav .nav-item {
+    margin-left: -0px;
+    border-bottom: #8cfc70;
+    border-radius: "15px";
+    
+    margin-top: -16px !important;
+    margin-bottom: -16px;}
 }

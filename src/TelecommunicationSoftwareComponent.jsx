@@ -11,7 +11,7 @@ const TelecommunicationSoftwareComponent = () => {
             <h1>Telecommunication Software Development</h1>
           </div>
           <p className="section-description">
-            Itransition is an accomplished telecom development company that builds tailored software solutions for internet, landline, and media service providers, broadcasting companies, mobile and satellite network operators. We help them maintain their business and networks, expand service coverage, and enhance customer engagement.
+            New Light is an accomplished telecom development company that builds tailored software solutions for internet, landline, and media service providers, broadcasting companies, mobile and satellite network operators. We help them maintain their business and networks, expand service coverage, and enhance customer engagement.
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ const TelecommunicationSoftwareComponent = () => {
         <div className="card">
           <h2>Whom We Serve</h2>
           <p>
-            Itransition serves various entities in the telecom industry, including ISVs, Mobile carriers, Landline service providers, ISPs, VoIP service providers, Broadcasting companies, and Operations support systems (OSS).
+            New Light serves various entities in the telecom industry, including ISVs, Mobile carriers, Landline service providers, ISPs, VoIP service providers, Broadcasting companies, and Operations support systems (OSS).
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ const TelecommunicationSoftwareComponent = () => {
         <div className="card">
           <h2>Telecom SLA Monitoring Software</h2>
           <p>
-            Itransition builds dedicated applications for maintaining telecom agency service scope and individual technical and operational parameters. Our applications help align services with SLAs, monitor their fulfillment, and automatically alert to bugs and glitches threatening to hinder SLA execution.
+            New Light builds dedicated applications for maintaining telecom agency service scope and individual technical and operational parameters. Our applications help align services with SLAs, monitor their fulfillment, and automatically alert to bugs and glitches threatening to hinder SLA execution.
           </p>
         </div>
       </section>

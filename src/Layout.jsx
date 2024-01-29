@@ -2,7 +2,7 @@ import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
-import Testimonial from "./pages/Testimonial";
+import Testimonial from "./container/Testimonials/Testimonials";
 import SectionEnd from "./pages/SectionEnd";
 import Container from "./components/lib/Container/Container";
 import 'bootstrap/dist/css/bootstrap.min.css';

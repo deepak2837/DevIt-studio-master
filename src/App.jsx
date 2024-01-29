@@ -154,7 +154,7 @@ const dotNetData = {
         <Route path="/portfolio" element={<ProjectPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/123" element={<DetailView />} />
-        <Route path="/contact" element={<Contacted />} />
+        <Route path="/contact-us" element={<Contacted />} />
         <Route path="/teams" element={<Teams />} />
         <Route
           path="/services/mobile-app-development"

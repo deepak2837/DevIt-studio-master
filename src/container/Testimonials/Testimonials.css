@@ -1,5 +1,4 @@
-.carousel-bg{
-    background: var(--color-dark);
+.testimonial-slider{
     border-radius: 45px;
 	padding: 1rem 0;
 	
@@ -45,8 +44,9 @@ margin-top: 1.5rem;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;    
-    color: #FFFFFF;
+    color: var(--color-highlight);
     margin-bottom: 1rem;
+	text-align: center;
 }
 
 .carousel-indicators [data-bs-target]{

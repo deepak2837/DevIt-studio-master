@@ -11,13 +11,20 @@ import {
 import logo from "../../../assets/logo-gray.png";
 
 const Footer = () => {
+  const phoneNumber = '08495846779';
+  const emailAddress = 'info@newlightassociate.in';
   const socialMediaPlatforms = [
     { icon: faFacebook, link: "https://www.facebook.com/profile.php?id=61555740542288" },
     { icon: faYoutube, link: "https://www.youtube.com/channel/UCwBDYHiGkdi8FR0eJZ2zH4Q" },
     { icon: faTwitter, link: "https://twitter.com/NewlightAsocAte" },
     { icon: faLinkedin, link: "www.linkedin.com/in/newlight-associates-0147492ab" },
   ];
-
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
+  const handlePhoneClick = () => {
+    window.open(`tel:${phoneNumber}`);
+  };
   return (
     <footer className="py-4 mb-0 lg:py-36 text-black md:px-4 lg:px-24 lg:mb-0">
       <div className="flex flex-col items-center md:flex-row md:justify-between">
@@ -41,8 +48,9 @@ const Footer = () => {
             </li>
             <div className="leading-6 font-extralight">
               <li className="mb-2">Address: #45/3, 8th main, 2nd Block, Hanumanth Nagar, BSK 1st stage, Banashankari, Bengaluru, Karnataka </li>
-              <li className="mb-2">Phone: 084958 46779</li>
-              <li>E-mail: info@newlightassociate.in</li>
+              Phone: <span onClick={handlePhoneClick} style={{ color: 'blue', cursor: 'pointer' }}>{phoneNumber}</span>
+              <br />
+              Email: <span onClick={handleEmailClick} style={{ color: 'blue', cursor: 'pointer' }}>{emailAddress}</span>
             </div>
           </ul>
         </div>

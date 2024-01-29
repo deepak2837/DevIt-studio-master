@@ -31,7 +31,7 @@ const Menu = [
     },
      {
         text: 'Contact',
-        link: '/contact',
+        link: '/contact-us',
     }, 
 ];
 const ServicesData = [
@@ -87,15 +87,15 @@ const ServicesData = [
 const CaseStudies = [
     {
         text: 'A boutique e-commerce store was struggling to stand out in a competitive market.',
-        link: '/case-study',
+        link: '/casestudy',
     },
     {
         text: ' A tech startup required a compelling online presence to attract investors and customers.',
-        link: 'case-study',
+        link: '/casestudy',
     },
     {
         text: 'A local service provider lacked an online platform to connect with customers and streamline service offerings.',
-        link: 'case-study',
+        link: '/casestudy',
     },
 ];
 
@@ -141,14 +141,14 @@ const Team = [
         linkedin: '',
     },
     {
-        name: 'Rahul',
+        name: 'Alex',
         position: 'Database Expert',
         info: '3+ years of experience in handling various databases. Skilled in mongodb,sql,postgres and many more ',
         foto: images.team04,
         linkedin: '',
     },
     {
-        name: 'Sheetal',
+        name: 'Aryan',
         position: 'Devops',
         info: '4+ years of experience in cloud computing. Proficient in managining aws and azure platforms stuffs',
         foto: images.team05,
