@@ -6,7 +6,7 @@ const TechInfo = ({ title, icon, techData }) => {
   console.log(icon)
   return (
     <Container>
-      <Typography variant="h4" gutterBottom style={{ display: 'flex', alignItems: 'center', border: '1px solid black', borderRadius: '10px', padding: '8px', textDecoration: 'underline' }}>
+      <Typography variant="h4" gutterBottom style={{ display: 'flex',fontFamily: 'cursive', fontWeight: '400', letterSpacing: '1px', color: '#333', alignItems: 'center', border: '1px solid black', borderRadius: '10px', padding: '8px', textDecoration: 'underline' }}>
         {icon}
         {title}
       </Typography>  

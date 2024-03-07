@@ -23,9 +23,10 @@ const Service = ({ title, imageLinks, technologiesUsed, strengths }) => {
 
   return (
     <div className="service-container">
-      <h2 className={`headername text-4xl mt-10 text-center mx-auto font-bold mb-10 ${isWideScreen ? 'w-50' : ''}`}>
-        {title}
-      </h2>
+      <h2 className={`headername text-4xl mt-10 text-center mx-auto font-bold mb-10 ${isWideScreen ? 'w-50' : ''}`} style={{ fontFamily: 'cursive', fontWeight: '400', letterSpacing: '1px', color: '#333' }}>
+  {title}
+</h2>
+
 
       <div className="technologies-section mx-auto text-center mb-8">
         <h3 className="text-2xl underline font-bold mb-4">Technologies We Use</h3>

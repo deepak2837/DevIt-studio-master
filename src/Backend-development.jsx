@@ -64,7 +64,7 @@ const BackendServices = () => {
 
   return (
     <Container>
-      <Typography style={{ textAlign: "center", marginTop: "20px", padding: "10px", borderRadius: "15px", border: "2px solid black" }} variant="h4" gutterBottom>
+      <Typography style={{ textAlign: "center", marginTop: "20px", padding: "10px", borderRadius: "15px", border: "2px solid black",fontFamily: 'cursive', fontWeight: '400', letterSpacing: '1px', color: '#333' }} variant="h4" gutterBottom>
         Backend Development Services We Provide
       </Typography>
       <Grid container spacing={2}>
