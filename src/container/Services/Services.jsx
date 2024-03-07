@@ -16,7 +16,7 @@ const Services = () => {
           <div className="col-lg-6 col-12" key={index}>
           <div className={`row ${itemclass}`}>
               <div className="col-md-6 box">
-             <div>  <span>{titleone} </span> 
+             <div className="mb-30" >  <span>{titleone} </span> 
                <span>{titletwo}</span> 
                </div>
                 <a href={link} alt={titleone} className="readmore"> <BsFillArrowUpRightCircleFill /> Learn more </a>

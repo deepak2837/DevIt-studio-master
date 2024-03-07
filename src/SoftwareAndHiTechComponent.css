@@ -6,12 +6,12 @@
 }
 
 .software-hi-tech-component .section-card {
-  background-color: #b9ff66;
+  background-color: #4c99e0;
   margin-bottom: 40px;
 }
 
 .software-hi-tech-component .section-title {
-  /* background-color: #b9ff66; Title background color */
+  /* background-color: #4c99e0; Title background color */
   padding: 10px;
   border: 3px solid black;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -49,7 +49,7 @@
 .software-hi-tech-component .service-item,
 .software-hi-tech-component .why-us-item,
 .software-hi-tech-component .client-spotlight-item {
-  /* background-color: #b9ff66; */
+  /* background-color: #4c99e0; */
   width: 48%;
   margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@
   
   text-decoration: underline;
  
-  color: #E74C3C;
+  color: #4c99e0;
   border-bottom: 2px solid #000; /* Black border for titles */
   padding-bottom: 10px; /* Add some space below the title */
 }
@@ -71,7 +71,7 @@
 }
 
 .software-hi-tech-component p {
-  background-color: #b9ff66;
+  background-color: #4c99e0;
   border-radius: 15px;
   margin-top: 30px;
   margin-bottom: 30px;

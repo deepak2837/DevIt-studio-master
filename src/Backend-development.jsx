@@ -7,7 +7,7 @@ const ServiceContainer = styled('div')({
   textAlign: 'center',
   padding: '20px',
   borderRadius: '12px',
-  background: '#b9ff66',
+  background: '#4c99e0',
   color: 'black',
   minHeight: '300px',
   fontFamily: 'Poppins, sans-serif',

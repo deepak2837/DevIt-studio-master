@@ -1,4 +1,4 @@
-import Blogphoto from "../../assets/blog-details1.jpg";
+import Blogphoto from "../../assets/blogImage.webp";
 import Blogphoto1 from "../../assets/blog-big-4.jpg";
 import Blogphoto2 from "../../assets/blog-sm-5.jpg";
 import { useState } from "react";
@@ -84,18 +84,7 @@ const DetailView = () => {
               TED talk.
             </p>
           </div>
-          <div className="imgs flex gap-20 max-sm:gap-7 mb-5 mt-12 max-xl:flex-col justify-between">
-            <img
-              className="w-full max-xl:w-full border rounded"
-              src={Blogphoto2}
-              alt=""
-            />
-            <img
-              className="w-full max-xl:w-full border rounded"
-              src={Blogphoto1}
-              alt=""
-            />
-          </div>
+         
           <div className="buttons-container flex justify-between max-sm:flex-col">
             <div className="buttons flex flex-wrap  max-sm:mb-8">
               <h1 className={"mx-4"}>Tags</h1>
@@ -118,40 +107,53 @@ const DetailView = () => {
           <div className="recent-post flex flex-col">
             <h1 className="mb-4">Recent Posts</h1>
             <div className="flex max-w-xs mb-3 max-sm:h-28">
-              <img
-                className="rounded-xl max-sm:w-32 "
-                src={Blogphoto2}
-                alt=""
-              />
-              <div className="m-2">
-                <p className="text-xs">FEBRUARY.20.2022</p>
-                <a href="#">
-                  <h3> How to add a count up animated the...</h3>
-                </a>
-              </div>
-            </div>
-            <div className="flex max-w-xs mb-3 max-sm:h-28">
-              <img className="rounded-xl max-sm:w-32 " src={Blogphoto} alt="" />
-              <div className="m-2">
-                <p className="text-xs">FEBRUARY.20.2022</p>
-                <a href="#">
-                  <h3> When and how to use Freelancers In ...</h3>
-                </a>
-              </div>
-            </div>
-            <div className="flex max-w-xs  max-sm:h-28">
-              <img
-                className="rounded-xl max-sm:w-32 "
-                src={Blogphoto1}
-                alt=""
-              />
-              <div className="m-2">
-                <p className="text-xs">MARCH.20.2022</p>
-                <a href="#">
-                  <h3> How to grow your business with coll...</h3>
-                </a>
-              </div>
-            </div>
+  <img
+    className="rounded-xl max-sm:w-32 "
+    src={Blogphoto2}
+    alt=""
+  />
+  <div className="m-2">
+    <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+      FEBRUARY.20.2022
+    </p>
+    <a href="#">
+      <h3 className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+        How to add a count up animated the...
+      </h3>
+    </a>
+  </div>
+</div>
+<div className="flex max-w-xs mb-3 max-sm:h-28">
+  <img className="rounded-xl max-sm:w-32 " src={Blogphoto} alt="" />
+  <div className="m-2">
+    <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+      FEBRUARY.20.2022
+    </p>
+    <a href="#">
+      <h3 className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+        When and how to use Freelancers In ...
+      </h3>
+    </a>
+  </div>
+</div>
+<div className="flex max-w-xs  max-sm:h-28">
+  <img
+    className="rounded-xl max-sm:w-32 "
+    src={Blogphoto1}
+    alt=""
+  />
+  <div className="m-2">
+    <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+      MARCH.20.2022
+    </p>
+    <a href="#">
+      <h3 className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
+        How to grow your business with coll...
+      </h3>
+    </a>
+  </div>
+</div>
+ 
           </div>
         </div>
       </div>

@@ -55,14 +55,14 @@ const MobileAppDevelopment = () => {
           {technologiesUsed.map((tech, index) => (
             <div key={index} className="technology-card mb-4 p-4 rounded-lg shadow-md">
               {tech.icon}
-              <p className="text-lg font-semibold" style={{ color: "#a4fa3e" }}>{tech.name}</p>
+              <p className="text-lg font-semibold" style={{ color: "#4c99e0" }}>{tech.name}</p>
             </div>
           ))}
         </div>
       </div>
 
       <div className="ml-4 md:ml-10 strengths-section mb-8">
-        <h3 className="text-2xl text-center font-bold mb-4" style={{ color: '#E74C3C', fontFamily: 'monospace' }}>
+        <h3 className="text-2xl text-center font-bold mb-4" style={{ color: '#4c99e0', fontFamily: 'monospace' }}>
           Why Choose Us for Mobile App Development
         </h3>
         <ul className={`list-disc ml-0 md text-center list-inside ${isWideScreen ? 'w-50 mx-auto' : ''}`}>

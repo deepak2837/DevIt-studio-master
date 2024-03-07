@@ -33,20 +33,20 @@ const Service = ({ title, imageLinks, technologiesUsed, strengths }) => {
           {technologiesUsed.map((tech, index) => (
             <div key={index} className="technology-card mb-4 p-4 rounded-lg shadow-md">
               {tech.icon}
-              <p className="text-lg font-semibold" style={{ color: "#a4fa3e" }}>{tech.name}</p>
+              <p className="text-lg font-semibold" style={{ color: "#4c99e0" }}>{tech.name}</p>
             </div>
           ))}
         </div>
       </div>
 
       <div className="ml-4 md:ml-10 strengths-section mb-8">
-  <h3 className="text-2xl text-center font-bold mb-4" style={{ color: '#E74C3C', fontFamily: 'monospace' }}>
+  <h3 className="text-2xl text-center font-bold mb-4" style={{ color: '#4c99e0', fontFamily: 'monospace' }}>
     Why Choose Us for {title}
   </h3>
   <ul className={`list-none text-center pl-0 ml-0 md ${isWideScreen ? 'w-50 mx-auto' : ''}`}>
     {strengths.map((strength, index) => (
       <li key={index} className={`text-lg mb-2 ${index === 0 ? 'text-center' : 'ml-0'}`} style={{ color: '#34495e' }}>
-        <span className="mr-2" style={{ color: '#E74C3C' }}>▪</span>{/* Red square */}
+        <span className="mr-2" style={{ color: '#4c99e0' }}>▪</span>{/* Red square */}
         {strength}
       </li>
     ))}

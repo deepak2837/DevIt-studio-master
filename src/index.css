@@ -10,8 +10,8 @@
 :root {
     --font-base: 'Space Grotesk', sans-serif;
     --color-text: #000000;
-    --color-highlight: #B9FF66;
-    --color-dark: #191A23;
+    --color-highlight: #4c99e0;
+    --color-dark: #4c99e0;
     --color-grey: #F3F3F3;
 }
 
@@ -85,7 +85,7 @@ input[type="text"] {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #191A23;
+    background: #4c99e0;
     border-radius: 14px;
     border: none;
     color: #fff;

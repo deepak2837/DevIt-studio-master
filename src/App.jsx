@@ -3,6 +3,15 @@ import NotFoundPage from "./components/lib/notFound/NotFoundPage";
 import BlogPage from "./pages/blog/BlogPage";
 import About from "./pages/about/About";
 import DetailView from "./pages/blog/DetailView";
+import DetailView1 from "./pages/blog/DetailView1.jsx";
+import DetailView2 from "./pages/blog/DetailView2.jsx";
+import DetailView3 from "./pages/blog/DetailView3.jsx";
+import DetailView4 from "./pages/blog/DetailView4.jsx";
+import DetailView5 from "./pages/blog/DetailView5.jsx";
+import DetailView6 from "./pages/blog/DetailView6.jsx";
+import DetailView7 from "./pages/blog/DetailView7.jsx";
+import DetailView8 from "./pages/blog/DetailView8.jsx";
+import DetailView9 from "./pages/blog/DetailView9.jsx";
 import Contact from "./pages/contact/Contact";
 import Contacted from "./Contacted.jsx"
 import Navbar from "./components/layouts/header/Navbar";
@@ -37,7 +46,7 @@ import PrivacyPolicy from "./privacy.jsx";
 const App = () => {
 
 const nodeData = {
-  icon: <FaNode style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #b9ff66' }} size={70} />,
+  icon: <FaNode style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #4c99e0' }} size={70} />,
   title: "Node.js Development Services We Provide",
   techData: [
     {
@@ -60,7 +69,7 @@ const nodeData = {
 };
 
 const angularData = {
-  icon: <FaAngular style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #b9ff66' }} size={70} />,
+  icon: <FaAngular style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #4c99e0' }} size={70} />,
   title: "Angular Development Services We Provide",
   techData: [
     {
@@ -83,7 +92,7 @@ const angularData = {
 };
 
 const javaData = {
-  icon: <FaJava style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #b9ff66' }} size={70} />,
+  icon: <FaJava style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #4c99e0' }} size={70} />,
   title: "Java Development Services We Provide",
   techData: [
     {
@@ -118,7 +127,7 @@ const javaData = {
 };
 
 const dotNetData = {
-  icon: <FaMicrosoft style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #b9ff66' }} size={70} />,
+  icon: <FaMicrosoft style={{ marginRight: '30px', borderRadius: "50px", border: '1px solid #4c99e0' }} size={70} />,
   title: ".NET Development Services We Provide",
   techData: [
     {
@@ -154,6 +163,15 @@ const dotNetData = {
         <Route path="/portfolio" element={<ProjectPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/123" element={<DetailView />} />
+        <Route path="/blog/120" element={<DetailView1 />} />
+        <Route path="/blog/121" element={<DetailView2 />} />
+        <Route path="/blog/122" element={<DetailView3 />} />
+        <Route path="/blog/124" element={<DetailView4 />} />
+        <Route path="/blog/125" element={<DetailView5 />} />
+        <Route path="/blog/126" element={<DetailView6 />} />
+        <Route path="/blog/127" element={<DetailView7 />} />
+        <Route path="/blog/128" element={<DetailView8 />} />
+        <Route path="/blog/129" element={<DetailView9 />} />
         <Route path="/contact-us" element={<Contacted />} />
         <Route path="/teams" element={<Teams />} />
         <Route
@@ -422,7 +440,7 @@ const dotNetData = {
 
           }
         />
-        <Route path="/react"   element={<TechInfo  icon={<FaReact style={{marginRight: '30px',borderRadius:"50px",border: '1px solid #b9ff66'}} size={50}/>} title="         React Development Services We Provide" techData={[
+        <Route path="/react"   element={<TechInfo  icon={<FaReact style={{marginRight: '30px',borderRadius:"50px",border: '1px solid #4c99e0'}} size={50}/>} title="         React Development Services We Provide" techData={[
           {
             title: 'Core Libraries and Frameworks',
             items: ['React (React JS)', 'React Native', 'Next.js', 'Gatsby'],
@@ -475,7 +493,7 @@ const dotNetData = {
   path="/python"
   element={
     <TechInfo
-      icon={<FaPython style={{marginRight: '30px',borderRadius:"50px",border: '1px solid #b9ff66'}} size={70} />}
+      icon={<FaPython style={{marginRight: '30px',borderRadius:"50px",border: '1px solid #4c99e0'}} size={70} />}
       title="Python Development Services We Provide"
       techData={[
         {

@@ -52,7 +52,7 @@
 .navbar-nav .nav-item .nav-dropdown .nav-link:hover {
   background-color: #8cfc70;
   /* Background color on hover for NavDropdown */
-  border-radius: 5px;
+  border-radius: 12px;
   /* Add border radius on hover for NavDropdown */
   border: 10px solid black;
 }
@@ -165,7 +165,7 @@
   .navbar-nav .nav-item .nav-dropdown .nav-link:hover {
     background-color: #f8f9fa;
     /* Background color on hover for responsive NavDropdown */
-    border-radius: 5px;
+    border-radius: 12px;
     /* Add border radius on hover for responsive NavDropdown */
   }
   .navbar-nav .nav-item {

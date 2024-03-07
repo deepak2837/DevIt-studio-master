@@ -1,9 +1,10 @@
-import image from "../../../assets/blogImage.webp";
+// import image from "../../../assets/blogImage.webp";
 import { Link } from "react-router-dom";
 
-function BlogCard({ title, span }) {
+function BlogCard({ title, span , value, image}) {
+  console.log(value)
   return (
-    <Link to="/blog/123">
+    <Link to={`/blog/${"12" + value}`}>
       <div className="col-span-1 w-full rounded overflow-hidden shadow-md bg-white">
         <div className="group cursor-pointer overflow-hidden">
           <img
@@ -22,8 +23,7 @@ function BlogCard({ title, span }) {
             {title}
           </div>
           <p className="text-gray-700 text-sm ">
-            Nam eget dui vel quam sodales semper quis porttitor tortor.
-            Vivamus...
+           
           </p>
         </div>
       </div>
