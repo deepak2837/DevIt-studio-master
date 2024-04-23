@@ -29,8 +29,6 @@ In this demo project, you will find examples of our expertise in:
 - SASS
 - Fort Awesome
 
-## Screenshots
-![ezgif com-video-to-gif (4)](https://github.com/hesennov/DevIt-studio/assets/74564476/06463443-b804-433a-bef8-456cb3c9ea9a)
 
 ## Setup
 To run this demo project locally, please follow these steps:
@@ -48,8 +46,3 @@ To run this demo project locally, please follow these steps:
 
 and navigate to the link to view the demo project.
 
-## Project Status
-Project is:  _complete_ 
-
-## Contact
-Created by [@hesennov](https://github.com/hesennov) and [@saidam90](https://github.com/saidam90) - feel free to contact us.
